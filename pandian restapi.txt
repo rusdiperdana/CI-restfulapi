@@ -1,0 +1,16 @@
+cara pake rest
+download 
+https://github.com/chriskacerguis/codeigniter-restserver
+abs tu copy file 
+rest ke config
+resController dan format
+ke libraries
+You just need to create this file /application/languages/english/rest_controller_lang.php
+kopi english languangge
+
+pakein 3 ini d endpoin controller
+ require(APPPATH . 'libraries/RestController.php');
+
+    require APPPATH . 'libraries/Format.php';
+    
+    use chriskacerguis\RestServer\RestController;
